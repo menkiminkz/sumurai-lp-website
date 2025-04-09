@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🌑 амдыгуль Акнур 🌑</title>
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'UnifrakturCook', cursive;
+      background: linear-gradient(to bottom, #0f0f0f, #1a1a1a);
+      color: #e0e0e0;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      margin-top: 40px;
+      font-size: 3em;
+      color: #fff;
+      text-shadow: 0 0 10px purple;
+      animation: flicker 3s infinite;
+    }
+
+    @keyframes flicker {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.7; }
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border: 4px solid #9900cc;
+      border-radius: 10px;
+      transition: transform 0.5s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05) rotate(2deg);
+      box-shadow: 0 0 20px #ff00ff;
+    }
+
+    .bio {
+      margin: 40px auto;
+      max-width: 600px;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 2px solid #333;
+      border-radius: 20px;
+      box-shadow: 0 0 20px #550055;
+      font-size: 1.2em;
+    }
+
+    .secret-btn {
+      margin: 30px;
+      padding: 15px 30px;
+      font-size: 1.3em;
+      border: none;
+      border-radius: 20px;
+      background: darkmagenta;
+      color: white;
+      cursor: pointer;
+      box-shadow: 0 0 10px magenta;
+    }
+
+    .explosion {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 3em;
+      color: red;
+      animation: explode 1s forwards;
+      pointer-events: none;
+      z-index: 9999;
+    }
+
+    @keyframes explode {
+      0% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+      100% { transform: translate(-50%, -50%) scale(3); opacity: 0; }
+    }
+
+    .falling-rose {
+      position: fixed;
+      top: -50px;
+      font-size: 2em;
+      animation: fall-rose linear infinite;
+      color: darkred;
+      pointer-events: none;
+    }
+
+    @keyframes fall-rose {
+      to {
+        transform: translateY(100vh);
+        opacity: 0;
+      }
+    }
+
+    footer {
+      margin: 50px;
+      font-size: 1.2em;
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌙 сумырай ЛП — КАЙРАТ АКНУР 🌙</h1>
+
+  <div class="bio">
+    <p>Кайрат Акнур, 17 лет, с Кызылорды. Учится в Астане, в ЕНУ.</p>
+    <p>Мы познакомились в TikTok — я лайкнула её видео, она — моё, мы подписались друг на друга, и она написала мне: "Я Амдыгүл!" Так и началась наша легендарная дружба 🤍</p>
+  </div>
+
+  <div class="gallery">
+    <img src="informatika/WhatsApp Image 2025-04-09 at 19.11.25.jpeg" alt="1" >
+    <img src="informatika/WhatsApp Image 2025-04-09 at 19.11.24.jpeg" alt="2">
+    <img src="informatika/WhatsApp Image 2025-04-09 at 19.11.24 (2).jpeg" alt="3">
+    <img src="informatika/WhatsApp Image 2025-04-09 at 19.11.24 (1).jpeg" alt="4">
+    <img src="informatika/WhatsApp Image 2025-04-09 at 19.11.23.jpeg" alt="5">
+    <img src="informatika/WhatsApp Image 2025-04-09 at 19.11.23 (9).jpeg" alt="6">
+    <img src="informatika/WhatsApp Image 2025-04-09 at 19.11.23 (8).jpeg" alt="7">
+    <img src="informatika/WhatsApp Image 2025-04-09 at 19.11.23 (7).jpeg" alt="8">
+    <img src="informatika/WhatsApp Image 2025-04-09 at 19.11.23 (6).jpeg" alt="9">
+    <img src="informatika/WhatsApp Image 2025-04-09 at 19.11.23 (5).jpeg" alt="10">
+    <img src="informatika/WhatsApp Image 2025-04-09 at 19.11.23 (4).jpeg" alt="11">
+    <img src="informatika/WhatsApp Image 2025-04-09 at 19.11.23 (3).jpeg" alt="12">
+    <img src="informatika/WhatsApp Image 2025-04-09 at 19.11.23 (2).jpeg" alt="13">
+    <img src="informatika/WhatsApp Image 2025-04-09 at 19.11.23 (11).jpeg" alt="14">
+    <img src="informatika/WhatsApp Image 2025-04-09 at 19.11.23 (10).jpeg" alt="15">
+    <img src="informatika/WhatsApp Image 2025-04-09 at 19.11.23 (1).jpeg" alt="16" >
+    <img src="informatika/WhatsApp Image 2025-04-09 at 19.11.22.jpeg" alt="17">
+    <img src="informatika/WhatsApp Image 2025-04-09 at 19.11.21.jpeg" alt="18">
+    <img src="informatika/WhatsApp Image 2025-04-09 at 19.11.21 (1).jpeg" alt="19">
+    <img src="informatika/WhatsApp Image 2025-04-09 at 19.11.19.jpeg" alt="20">
+    <img src="informatika/WhatsApp Image 2025-04-09 at 19.10.48.jpeg" alt="21">
+  </div>
+
+  <button class="secret-btn" onclick="explodeHearts()">💥 Нажми, если ты котакбас</button>
+  <button onclick="toggleMusic()" class="secret-btn">🎵нихуевый оленды косу</button>
+  <!DOCTYPE html>
+  <div class="falling-rose" style="left:10%; animation-duration: 8s;">🌹</div>
+  <div class="falling-rose" style="left:30%; animation-duration: 9s;">🌹</div>
+  <div class="falling-rose" style="left:50%; animation-duration: 10s;">🌹</div>
+  <div class="falling-rose" style="left:70%; animation-duration: 11s;">🌹</div>
+  <div class="falling-rose" style="left:90%; animation-duration: 12s;">🌹</div>
+
+  <footer>Ты лучшая сучка планете 🖤</footer>
+
+  <script>
+    function explodeHearts() {
+      const boom = document.createElement('div');
+      boom.className = 'explosion';
+      boom.textContent = '💣 БУМ! ты котакбас 💗';
+      document.body.appendChild(boom);
+      setTimeout(() => boom.remove(), 1500);
+    }
+
+    function toggleMusic() {
+      const audio = document.getElementById('bg-music');
+      if (audio.paused) {
+        audio.play();
+      } else {
+        audio.pause();
+      }
+    }
+    function fireworks(el) {
+      const spark = document.createElement('div');
+      spark.className = 'explosion';
+      spark.textContent = '🎆';
+      spark.style.left = (el.getBoundingClientRect().left + el.offsetWidth/2) + 'px';
+      spark.style.top = (el.getBoundingClientRect().top + window.scrollY + el.offsetHeight/2) + 'px';
+      document.body.appendChild(spark);
+      setTimeout(() => spark.remove(), 800);
+    }
+  </script>
+
+  <audio id="bg-music" loop>
+    <source src="informatika/eeowi2ju3owcs06l0t6e.m4a" type="audio/mp3">
+  </audio>
+  <script>
+    function createConfetti() {
+      const colors = ['#ff00ff', '#ff9900', '#66ff66', '#00ccff', '#ff0033'];
+      const confetti = document.createElement('div');
+      confetti.style.position = 'absolute';
+      confetti.style.top = '-50px';
+      confetti.style.left = `${Math.random() * window.innerWidth}px`;
+      confetti.style.width = '10px';
+      confetti.style.height = '10px';
+      confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+      confetti.style.animation = 'fall 3s linear infinite';
+      document.body.appendChild(confetti);
+  
+      setTimeout(() => confetti.remove(), 3000);
+    }
+  
+    setInterval(createConfetti, 200); // Запуск дождя каждую 1/5 секунды
+  
+    @keyframes fall {
+      to {
+        transform: translateY(100vh);
+      }
+    }
+  </script>
+<style>
+    body {
+      background: linear-gradient(45deg, #2e1c47, #3a2d7f);
+      animation: changeBackground 10s infinite alternate;
+    }
+  
+    @keyframes changeBackground {
+      0% { background: linear-gradient(45deg, #2e1c47, #3a2d7f); }
+      50% { background: linear-gradient(45deg, #1f2c3b, #4b004b); }
+      100% { background: linear-gradient(45deg, #2e1c47, #3a2d7f); }
+    }
+  </style>
+<style>
+    .clouds {
+      position: absolute;
+      top: -50px;
+      left: 0;
+      width: 100%;
+      height: 200px;
+      background: url('https://cdn.pixabay.com/photo/2015/09/16/20/36/cloud-941788_960_720.jpg') repeat-x;
+      animation: moveClouds 60s linear infinite;
+    }
+  
+    @keyframes moveClouds {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-100%); }
+    }
+  </style>
+  <div class="clouds"></div>
+  <button onclick="toggleDarkMode()">🌑 негрдын темасына ауыстыру</button>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+  
+  <style>
+    .dark-mode {
+      background: #121212;
+      color: white;
+    }
+  </style>
+        <style>
+            .fade-in {
+              opacity: 0;
+              transition: opacity 1s ease-in-out;
+            }
+          
+            .fade-in.visible {
+              opacity: 1;
+            }
+          </style>
+          
+          <div class="fade-in" id="text">акнур лошара.</div>
+          
+          <script>
+            window.addEventListener('scroll', () => {
+              const text = document.getElementById('text');
+              const rect = text.getBoundingClientRect();
+              if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+                text.classList.add('visible');
+              }
+            });
+          </script>
+          <style>
+            .floating-text {
+              position: absolute;
+              font-size: 2em;
+              animation: float 5s linear infinite;
+            }
+          
+            @keyframes float {
+              0% { transform: translateY(0); }
+              50% { transform: translateY(-50px); }
+              100% { transform: translateY(0); }
+            }
+          </style>
+          
+          <div class="floating-text">👻 это сайт акнурочки.</div>
+          
+           
+          
+          <div class="mist"></div>
+          
+
+          
+          
+</body>
+</html>
